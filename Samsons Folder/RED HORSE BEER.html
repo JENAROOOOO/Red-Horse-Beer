@@ -1,0 +1,244 @@
+<html>
+
+	<head>
+		<title> RED HORSE BEER </title>
+		
+		<style>
+		
+			.container{
+				padding: 30 150px;
+				height:650px;
+				width: 1200px;
+			
+				
+			}
+			
+			.box-1{
+				
+				height:650px;
+				width: 300px;
+				border: 5px solid #FF4433;
+				border-radius:15px;
+				float: left;
+				
+				align-items: center;
+				margin:auto;
+				flex-direction:column;
+				display:flex; 
+				background-color: rgba(0,0,0,0.8);
+				box-shadow: inset -5px -5px rgb;
+			}
+		
+			
+			.box-2{
+				
+				height:650px;
+				width: 800px;
+				border: 5px solid #FF4433;
+				border-radius:15px;
+				float: right;
+				
+				align-items: center;
+				margin:auto;
+				flex-direction:column;
+				display:flex; 
+				background-color: rgba(0,0,0,0.8);
+				box-shadow: inset -5px -5px rgb;
+			
+			}
+			
+			.name{
+			
+				width:240px; 
+				height:30px; 
+				font-size:15px; 
+				border-radius:3px; 
+				background-color:#FF5349; 
+				font-color:#000000;
+				border: 3px solid #f7e98e;
+			}
+			.name::placeholder{
+				color:black;
+				
+			}
+			
+			
+			
+			.address{
+			
+				width:240px; 
+				height:30px; 
+				font-size:15px; 
+				border-radius:3px; 
+				background-color:#FF5349; 
+				font-color:#000000;
+				border: 3px solid #f7e98e;
+			}
+			.address::placeholder{
+				color:black;
+			}
+			
+			
+			.birthdate{
+			
+				width:240px; 
+				height:30px; 
+				font-size:15px; 
+				border-radius:3px; 
+				background-color:#FF5349; 
+				font-color:#000000;
+				border: 3px solid #f7e98e;
+			}
+			.birthdate::placeholder{
+				color:black;
+			}
+		
+		
+			.btn{
+				font-size:15px; 
+				border-radius:20px; 
+				color:#000000; 
+				width:150px; 
+				height:40px; 
+				background:#FF4433;
+				border: 3px solid #f7e98e;
+			}
+			
+		
+		</style>
+	</head>
+	
+	
+	<body style="background-image:url(redhorse.jpg); background-repeat:no-repeat; background-attachment:fixed; background-size:100% 100%;">
+	
+	
+		<center>
+		
+		<div class="container">
+		
+		<div class="box-1">
+		
+				<p> <img src="Rlogo.png" 
+						 width="190" 
+						 height="170">
+				</p>
+											
+										
+		<form>
+		 
+					<p align = "center"> 
+						<font color="#FF4433" 
+							  size="5px" > Grab Yours Now! 
+						</font> 
+					</p> 
+
+				
+					<input type="text" 
+						   placeholder="Name" 
+						   class="name" required/> 
+									   
+					</br>
+					</br>
+					
+					<input type="text" 
+						   placeholder="Address"
+						   class="address" required/>
+
+					</br>
+					</br>
+					
+					<input type="text" 
+						   placeholder="Birth Date" 
+						   class="birthdate" required/> 
+											 
+											 
+					
+					<p align = "center"> 
+									<font color="#FF4433" 
+										  size="5px"> Gender										  
+									</font> 
+					</p> 
+					
+					
+						<input id="Male" 
+							   Name="select" 
+						       type="radio"/>
+						   
+						<label for="Male"> 
+							<font color="#FF4433" 
+								  size="4px"> Male 
+							</font> 
+						</label>
+					
+					
+						<input id="Female" 
+						       Name="select"  
+						       type="radio"/>
+						   
+						<label for="Female"> 
+							<font color="#FF4433" 
+								  size="4px"> Female 
+							</font> 
+						</label>
+					
+					
+						<input id="Others" 
+							   Name="select" 
+							   type="radio"/>
+						   
+						<label for="Others"> 
+							<font color="#FF4433" 
+							      size="4px"> Others 
+							</font> 
+						</label>
+						
+					</br>
+					</br>
+					</br>
+					
+					<a href="">
+					
+					<button type="submit" class="btn"> <b> Submit </b> 
+					</button>
+					
+					</a>
+					
+			
+		</form>
+		
+		</div>
+		
+		
+		<div class="box-2"> 
+		
+		<form>
+		
+					<p style="font-size:50px; 
+							  color:#FF4433; margin-bottom:0.3px; "> <b>  LAKAS NG TAMA! <br/> PERO DI WASAK! </b> 
+					</p>
+				
+					<video  controls autoplay muted loop width="600" height="400" margin-top="10px">
+					
+						<source src="ridhorse.mp4" type="video/mp4">
+					
+					</video>
+				
+					<audio controls autoplay loop">
+					
+						<source src="rh.mp3" type="audio/mp3">
+					
+					</audio>
+			
+		</form>
+	
+	
+		</div>
+		
+		</div>
+		
+		
+		</center>
+
+	</body> 
+	
+</html>
